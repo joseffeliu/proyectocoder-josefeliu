@@ -57,8 +57,9 @@ footer{
     text-align: center;
     padding: 25px;
     font-style:oblique;
-    text-decoration:underline
-    }
+    text-decoration:underline;
+
+}
 
 .inicio{
     display: flex;
@@ -96,6 +97,23 @@ footer{
     background-color: black;
     color: silver;
     text-align: left;
+
+    animation-name: tit;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes tit {
+    0%{
+        text-align: left;
+    }
+    50%{
+        text-align: center;
+    }
+    100%{
+        text-align: right;
+    }
 }
 
 .qs_definiciones{
@@ -191,6 +209,28 @@ footer{
         width: 100%;
         background-color: black;
     
+    }
+
+    .bargrid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "comidas"
+        "combos"
+        "bebidas";
+    } 
+    
+    .bargrid_comidas{
+        grid-area: titulo;
+    }
+    
+    .bargrid_bebidas{
+        grid-area: texto;
+    }
+    
+    .bargrid_combos{
+        grid-area: video;
     }
 
 }
