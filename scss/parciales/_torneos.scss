@@ -1,0 +1,13 @@
+.torneos{
+    background-image: url(../../imagenes/corner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.torneos_divisiones{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px;
+    text-decoration: underline;
+}      

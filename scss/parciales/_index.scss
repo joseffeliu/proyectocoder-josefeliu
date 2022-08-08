@@ -1,0 +1,36 @@
+.titulo{
+    background-color: rgb(0, 0, 0);
+    color: silver;
+    font-weight: 100;
+    text-align: center;
+    padding: 25px;
+    font-style:oblique;
+    text-decoration:underline;
+
+}
+
+.inicio{
+    display: flex;
+
+}
+
+.inicio1_izq{
+    color: silver;
+    text-align: left;
+    background-image: url(../../imagenes/16535843075175.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* hace que se mueva la imagen */
+    width: 40%;
+}
+
+.inicio_izq-texto{
+    width: 60%;
+}
+
+.inicio1_der{
+    width: 60%;
+    background-color: black;
+
+}
+

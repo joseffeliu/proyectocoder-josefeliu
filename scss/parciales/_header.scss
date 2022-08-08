@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background-image: url(../../imagenes/circulocentral.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.menu{
+    list-style: none;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.boton{
+    padding: 0px 20px;
+    text-align: justify;
+    background-color: black;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 5px;
+}
+

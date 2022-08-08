@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none; }
+
+main {
+  font-family: 'Keania One', cursive; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../../imagenes/circulocentral.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom; }
+
+.menu {
+  list-style: none;
+  text-decoration: none;
+  padding: 30px;
+  font-size: 20px;
+  font-style: oblique; }
+
+.boton {
+  padding: 0px 20px;
+  text-align: justify;
+  background-color: black;
+  text-decoration: none;
+  list-style: none;
+  border-radius: 5px; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../../imagenes/circulocentral.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom; }
+
+.socialmedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.derechos {
+  color: red;
+  font-size: larger;
+  font-style: oblique; }
+
+.titulo {
+  background-color: black;
+  color: silver;
+  font-weight: 100;
+  text-align: center;
+  padding: 25px;
+  font-style: oblique;
+  text-decoration: underline; }
+
+.inicio {
+  display: flex; }
+
+.inicio1_izq {
+  color: silver;
+  text-align: left;
+  background-image: url(../../imagenes/16535843075175.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* hace que se mueva la imagen */
+  width: 40%; }
+
+.inicio_izq-texto {
+  width: 60%; }
+
+.inicio1_der {
+  width: 60%;
+  background-color: black; }
+
+.qs {
+  background-image: url(../../imagenes/corner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black; }
+
+.qs_titulos {
+  background-color: black;
+  color: silver;
+  text-align: left;
+  animation-name: tit;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-timing-function: linear; }
+
+@keyframes tit {
+  0% {
+    text-align: left; }
+  50% {
+    text-align: center; }
+  100% {
+    text-align: right; } }
+
+.qs_definiciones {
+  width: 50%;
+  padding: 20px 0px; }
+
+.torneos {
+  background-image: url(../../imagenes/corner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.torneos_divisiones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  text-decoration: underline; }
+
+.reglamento {
+  background-image: url(../../imagenes/corner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black; }
+
+.reglamento_secciones {
+  padding: 20px; }
+
+.reglamento_secciones-texto {
+  width: 75%;
+  padding: 20px 0px; }
+
+.bar {
+  background-image: url(../../imagenes/burga.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.bar_opciones {
+  padding: 30px 0px;
+  color: silver; }
+
+.bargrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "comidas bebidas" "combos"; }
+
+.bargrid_comidas {
+  grid-area: titulo; }
+
+.bargrid_bebidas {
+  grid-area: texto; }
+
+.bargrid_combos {
+  grid-area: videos; }
+
+tr {
+  background-color: black;
+  border-radius: 10px; }
+
+@media screen and (max-width: 1023px) {
+  .inicio {
+    display: flex;
+    flex-direction: column; }
+  .inicio1_izq {
+    color: silver;
+    text-align: left;
+    background-image: url(../../imagenes/16535843075175.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* hace que se mueva la imagen */
+    width: 100%; }
+  .inicio_izq-texto {
+    width: 300px; }
+  .inicio1_der {
+    width: 100%;
+    background-color: black; }
+  .bargrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "comidas" "combos" "bebidas"; }
+  .bargrid_comidas {
+    grid-area: titulo; }
+  .bargrid_bebidas {
+    grid-area: texto; }
+  .bargrid_combos {
+    grid-area: video; } }
+
+@media screen and (max-width: 599px) {
+  .inicio1_izq {
+    color: silver;
+    text-align: center;
+    background-image: url(../../imagenes/16535843075175.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* hace que se mueva la imagen */
+    width: 100%; }
+  .inicio_izq-texto {
+    padding: 0% 20%;
+    width: 100%;
+    text-align: center; } }

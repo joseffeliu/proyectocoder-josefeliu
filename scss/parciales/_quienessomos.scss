@@ -1,0 +1,34 @@
+.qs{
+    background-image: url(../../imagenes/corner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.qs_titulos{
+    background-color: black;
+    color: silver;
+    text-align: left;
+
+    animation-name: tit;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes tit {
+    0%{
+        text-align: left;
+    }
+    50%{
+        text-align: center;
+    }
+    100%{
+        text-align: right;
+    }
+}
+
+.qs_definiciones{
+    width: 50%;
+    padding: 20px 0px;
+}

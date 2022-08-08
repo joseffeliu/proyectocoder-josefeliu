@@ -1,0 +1,23 @@
+    
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background-image: url(../../imagenes/circulocentral.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.derechos{
+    color: red;
+    font-size: larger;
+    font-style: oblique;
+}    

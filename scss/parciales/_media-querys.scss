@@ -1,0 +1,70 @@
+@media screen and (max-width: 1023px) {
+    .inicio{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .inicio1_izq{
+        color: silver;
+        text-align: left;
+        background-image: url(../../imagenes/16535843075175.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed; /* hace que se mueva la imagen */
+        width: 100%;
+    }
+    
+    .inicio_izq-texto{
+        width: 300px;
+    }
+    
+    .inicio1_der{
+        width: 100%;
+        background-color: black;
+    
+    }
+
+    .bargrid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "comidas"
+        "combos"
+        "bebidas";
+    } 
+    
+    .bargrid_comidas{
+        grid-area: titulo;
+    }
+    
+    .bargrid_bebidas{
+        grid-area: texto;
+    }
+    
+    .bargrid_combos{
+        grid-area: video;
+    }
+
+}
+
+@media screen and (max-width: 599px) {
+
+    .inicio1_izq{
+        color: silver;
+        text-align: center;
+        background-image: url(../../imagenes/16535843075175.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed; /* hace que se mueva la imagen */
+        width: 100%;
+    }
+    .inicio_izq-texto{
+        padding: 0% 20%;
+        width: 100%;
+        text-align: center;
+    }   
+    
+    
+}
